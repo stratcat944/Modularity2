@@ -17,12 +17,12 @@
   				<h1 class="instruction-title">Horizontally Spaced</h1>
 
 	    		<p class="instruction-text">Center multiple arbitrary elements horizontally, with padding.</p>
-					<div class="instruction-answer">
+					<div class="instruction-answer img-pad">
 			    	<!-- Edit here -->
-						<div>
-							<img src="http://placehold.it/160">
-							<img src="http://placehold.it/160">
-							<img src="http://placehold.it/160">
+						<div class="center-horizontal">
+							<img class="img-pad" src="http://placehold.it/160">
+							<img class="img-pad" src="http://placehold.it/160">
+							<img class="img-pad" src="http://placehold.it/160">
 						</div>
 				    <!-- End editable area -->
 			    </div>
@@ -30,7 +30,7 @@
 	    		<p class="instruction-text">Works with different HTML...</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
+						<div class="center-horizontal">
 							<img src="http://placehold.it/120">
 							<img src="http://placehold.it/160">
 				    	<p>Oh hello</p>
@@ -51,8 +51,8 @@
 	    		<p class="instruction-text">Center arbitrary elements vertically, with padding.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-						<div>
-							<div>
+						<div class="center-vertical-container">
+							<div class="center-vertical">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/50">
@@ -64,8 +64,8 @@
 	    		<p class="instruction-text">Works with different HTML...</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<div>
-							<div>
+			    	<div class="center-vertical-container">
+							<div class="center-vertical">
 								<img src="http://placehold.it/50">
 								<img src="http://placehold.it/20">
 					    	<p>Oh hello</p>
@@ -87,7 +87,7 @@
 	    		<p class="instruction-text">Make the list items horizontal instead of vertical.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ul>
+			    	<ul class="list-horizontal">
 							<li>Ready</li>
 							<li>Fire</li>
 							<li>Aim</li>
@@ -102,18 +102,18 @@
 	    		<p class="instruction-text">Create a set of different-sized buttons.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<a href="#">Buy Now</a>
-			    	<a href="#">Learn More</a>
-			    	<a href="#">OK</a>
+			    	<a class="button-display button-large" href="#">Buy Now</a>
+			    	<a class="button-display button-medium" href="#">Learn More</a>
+			    	<a class="button-display button-small" href="#">OK</a>
 				    <!-- End editable area -->
 			    </div>
 
 	    		<p class="instruction-text">Should work with both &lt;a&gt;, &lt;button&gt;, and &lt;submit&gt; elements.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<a href="#">Learn More</a>
-			    	<input type="button" href="#" value="Accept">
-			    	<input type="submit" href="#" value="Submit">
+			    	<a class="button-display button-generic" href="#">Learn More</a>
+			    	<input class="button-display button-generic" type="button" href="#" value="Accept">
+			    	<input class="button-display button-generic" type="submit" href="#" value="Submit">
 				    <!-- End editable area -->
 			    </div>
 			  </li>
@@ -125,12 +125,12 @@
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
 			    	<nav>
-			    		<ul>
-			    			<li><a href="#">Home</a></li>
-			    			<li><a href="#">Products</a></li>
-			    			<li><a href="#">About</a></li>
-			    			<li><a href="#">News</a></li>
-			    			<li><a href="#">Contact</a></li>
+			    		<ul class="list-horizontal">
+			    			<li><a class="nav-bar" href="#">Home</a></li>
+			    			<li><a class="nav-bar" href="#">Products</a></li>
+			    			<li><a class="nav-bar" href="#">About</a></li>
+			    			<li><a class="nav-bar" href="#">News</a></li>
+			    			<li><a class="nav-bar" href="#">Contact</a></li>
 			    		</ul>
 			    	</nav>
 				    <!-- End editable area -->
@@ -143,16 +143,16 @@
 	    		<p class="instruction-text">Style a pagination control for navigating through pages of search results.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<ol>
-			    		<li><a href="#">prev</a></li>
-			    		<li><a href="#">5</a></li>
-			    		<li><a href="#">6</a></li>
-			    		<li><a href="#">7</a></li>
-			    		<li><span>8</span></li>
-			    		<li><a href="#">9</a></li>
-			    		<li><a href="#">10</a></li>
-			    		<li><a href="#">11</a></li>
-			    		<li><a href="#">next</a></li>
+			    	<ol class="pagination-list">
+			    		<li><a class="numbered-link plain-link" href="#">prev</a></li>
+			    		<li><a class="numbered-link" href="#">5</a></li>
+			    		<li><a class="numbered-link" href="#">6</a></li>
+			    		<li><a class="numbered-link" href="#">7</a></li>
+			    		<li><span class="numbered-link" >8</span></li>
+			    		<li><a class="numbered-link" href="#">9</a></li>
+			    		<li><a class="numbered-link" href="#">10</a></li>
+			    		<li><a class="numbered-link" href="#">11</a></li>
+			    		<li><a class="numbered-link plain-link" href="#">next</a></li>
 			    	</ol>
 				    <!-- End editable area -->
 			    </div>

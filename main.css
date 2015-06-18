@@ -1,1 +1,148 @@
 /* ADD YOUR STYLES HERE */
+
+/*HORIZONTALLY SPACED*/
+
+.center-horizontal {
+	text-align: center:
+}
+
+.center-horizontal > * {
+	margin: 20px;
+	display:inline-block;
+	vertical-align:top;
+	text-align: left;
+}
+
+/*Vertically Spaced*/
+
+.center-vertical {
+	display: inline-block;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.center-vertical-container {
+	display: table;
+	height: 300px;
+}
+
+/*Horizontal List*/
+
+.list-horizontal li{
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+/*Buttons*/
+
+.button-display {
+ 	display: inline-block;
+ 	border-radius: 5px;
+ 	background:salmon;
+ 	color:white;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	font-family: Arial;
+ 	text-decoration: none;
+ }
+
+ .button-large {
+ 	padding:25px;
+ 	width:200px;
+ 	font-size: 30px;
+
+ }
+
+ .button-medium {
+ 	padding:15px;
+ 	width:200px;
+ 	font-size: 20px;
+ }
+
+.button-small {
+	padding:8px;
+ 	width:30px;
+ 	font-size:15px;
+}
+
+.button-generic {
+	padding:8px;
+ 	width:200px;
+ 	font-size: 20px;
+}
+
+/*Nav Bar*/
+
+.nav-bar {
+	padding:12px 40px 12px 40px;
+	display: inline-block;
+ 	background:salmon;
+ 	color:white;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	font-family: Arial;
+ 	text-decoration: none;
+}
+
+li > .nav-bar {
+	border-radius: 0;
+	float:left;
+}
+
+li:first-child > .nav-bar {
+	border-radius: 5px 0 0 5px;
+}
+
+li:last-child > .nav-bar {
+	border-radius: 0 5px 5px 0;
+}
+li > a:hover {
+	background-color: darksalmon;
+}
+
+/*Pagination*/
+
+.pagination-list {
+	padding:0;
+}
+
+.horizontal-list > li {
+	float:left;
+	list-style: none;
+}
+
+.numbered-link {
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 9px;
+	margin: 5px;
+	color: #ec828a;
+	border: solid 1px #ec828a;
+	border-width: 0 0 3px 0;
+}
+
+a:.numbered-link:hover {
+	background-color: #fdd;
+}
+
+.plain-link {
+	border-color: transparent;
+}
+a.plain-link:hover {
+	border-color: #fdd
+}
+.number-disabled {
+	margin: 5px 10px;
+	color: #ccc;
+	border-color: #ccc;
+}
+
+
+
+
+
+
+
+
