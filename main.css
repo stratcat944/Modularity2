@@ -163,7 +163,44 @@ a.plain-link:hover {
 	color:grey;
 }
 
+/*Tabs*/
 
+.tabs {
+	list-style: none;
+	padding-left: 10px;
+}
+
+.tabs > li {
+	display: inline-block;
+	}
+
+.tab {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 7px 7px 0 0;
+	border: solid 1px;
+	margin-right: 5px;
+	position:relative;
+	top: 1px;
+	text-decoration: none;
+
+}
+
+.tab-heading {
+
+}
+
+.tab-active {
+	border-bottom-color: fff;
+}
+
+.tab-content {
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px;
+}
 
 
 
