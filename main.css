@@ -99,7 +99,7 @@ li:last-child > .nav-bar {
 	border-radius: 0 5px 5px 0;
 }
 li > a:hover {
-	background-color: darksalmon;
+	background-color: peachpuff;
 }
 
 /*Pagination*/
@@ -123,8 +123,8 @@ li > a:hover {
 	border-width: 0 0 3px 0;
 }
 
-a:.numbered-link:hover {
-	background-color: #fdd;
+a.numbered-link:hover {
+	background-color: #purple;
 }
 
 .plain-link {
@@ -142,8 +142,26 @@ a.plain-link:hover {
 	display:inline-block;
 }
 
+/*Content Stream*/
 
+.media-object {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
 
+.media-body {
+	overflow: hidden;
+}
+
+.media-block {
+	clear:left;
+}
+
+.dim {
+	font-size: 12px;
+	color:grey;
+}
 
 
 
